@@ -1,0 +1,25 @@
+{
+  "name": "projeto02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "knex": "node --loader tsx ./node_modules/knex/bin/cli.js --knexfile ./knexfile.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "tsx": "^3.12.8",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "fastify": "^4.22.2",
+    "knex": "^2.5.1",
+    "sqlite3": "^5.1.6",
+    "zod": "^3.22.2"
+  }
+}
