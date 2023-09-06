@@ -1,0 +1,30 @@
+Olá, obrigado por visualizar meu projeto!
+
+
+Para conseguir rodar, por favor, siga os passos abaixo : 
+
+1. Se você não tiver o gerenciador de pacotes npm, por gentileza instale o nodeJS em sua máquina para que o gerenciador seja instalado.
+
+
+2. Se você não tiver o node-red instalado em sua máquina, por favor, rode o seguinte comando :
+
+Windows : npm install -g --unsafe-perm node-red
+
+Mac , Linux : sudo npm install -g --unsafe-perm node-red
+
+
+3. Dentro da pasta do projeto (node-red-API) abra o terminal (prompt de comando) e digite npm i para que todas as dependências sejam instaladas no projeto.
+
+4. Digite o comando npm run dev para que a API comece a rodar na porta 3333. Uma mensagem de confirmação HTTP server running! será mostrada no console.
+  por favor, não feche este terminal ou a API ficara fora do ar.
+
+5. Em um novo terminal rodar o comando node-red para que o servidor do node-red seja iniciado.
+
+6. Em qualquer navegador abra o site http://127.0.0.1:1880/  que será o servidor do node-red.
+
+7. Arraste o documento flows.json encontrado na pasta raiz do projeto (node-red-API/flows.json) para esse servidor node-red que foi iniciado e aberto no navegador.
+
+8. Pronto! Agora no node inject você pode ir mudando os números dos personagens para que os mesmo sejam consultados, transformados e carregados na api local.
+
+9. Para consultar o banco de dados da API é simples. Basta acessar o site https://inloop.github.io/sqlite-viewer/  e arrasar o documento encontrado dentro do projeto em db/app.db
+
